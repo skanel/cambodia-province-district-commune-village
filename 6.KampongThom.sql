@@ -1,31 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.0.10deb1
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Feb 11, 2015 at 10:55 AM
--- Server version: 5.5.41-0ubuntu0.14.04.1
--- PHP Version: 5.5.9-1ubuntu4.5
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- Database: `khetkrung`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `op_communes`
---
-
 CREATE TABLE IF NOT EXISTS `op_communes` (
   `id` int(20) NOT NULL,
   `name` text,
@@ -934,7 +906,3 @@ INSERT INTO `op_villages` (`id`, `name`, `commune_id`) VALUES
 (6081314, 'Koch Tituy', 60813),
 (6081315, 'Popeay', 60813),
 (6081316, 'Tumpech', 60813);
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
